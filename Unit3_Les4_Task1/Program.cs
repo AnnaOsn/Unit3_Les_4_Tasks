@@ -6,9 +6,9 @@
 // 2, 4 -> 16
 
 Console.Write("Введите число A ");
-int A = int.Parse(Console.ReadLine());
+int A = int.Parse(Console.ReadLine()!);
 Console.Write("Введите число B ");
-int B = int.Parse(Console.ReadLine());
+int B = int.Parse(Console.ReadLine()!);
 int result = 1;
 int i = 1;
 
